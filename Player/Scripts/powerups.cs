@@ -69,21 +69,21 @@ public class powerups : MonoBehaviour
         }
     }
 
-    if (GameObject.Find("EnemySpawner").GetComponent<SpawnEnemies>().wave >= 2){ //if wave = 20
+    if (GameObject.Find("EnemySpawner").GetComponent<SpawnEnemies>().wave >= 20){ //if wave = 20
         if (polarChecked == false){ //debounce check
             polarChecked = true; //reset debounce
             polarCharged = true; //allow polarity switch
             displaypolar(); //inform user
         }
         }  
-        if (GameObject.Find("EnemySpawner").GetComponent<SpawnEnemies>().wave >= 4){ //if wave = 40
+        if (GameObject.Find("EnemySpawner").GetComponent<SpawnEnemies>().wave >= 40){ //if wave = 40
             if (phaseShiftChecked == false){ //debounce check
                 phaseShiftChecked = true; //reset debounce
                 phaseShiftCharged = true; //allow phase shift
                 displayphase(); //inform user
             }
         }
-        if (GameObject.Find("EnemySpawner").GetComponent<SpawnEnemies>().wave >= 6){ //if wave = 60
+        if (GameObject.Find("EnemySpawner").GetComponent<SpawnEnemies>().wave >= 60){ //if wave = 60
             if (timeWarpCharged == false){ //debounce check 
                 timeWarpChecked = true; //reset debounce
                 timeWarpCharged = true; //allow time warp
@@ -180,3 +180,4 @@ public class powerups : MonoBehaviour
 
 
 }
+
