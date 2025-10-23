@@ -1,14 +1,14 @@
 # Polaris
 
-i made this game using Unity version 2021.3.21f1 for my A-Level Computing NEA project.
+I made this game using Unity version 2021.3.21f1 for my A-Level Computing NEA project.
 
 # WARNING: THIS CODE IS REALLY OLD, BARELY WORKS, AND SHOULD NOT UNDER ANY CIRCUMSTANCE BE TREATED AS BEST PRACTICE
 
-seriously. this was my first time ever using Unity AND my first time using C# as a programming language. Before this, I only had experience with Lua and Python, so the curly brace syntax coupled with needing a semicolon after ever line was a big culture shock.
+Seriously. this was my first time ever using Unity AND my first time using C# as a programming language. Before this, I only had experience with Lua and Python, so the curly brace syntax coupled with needing a semicolon after ever line was a big culture shock.
 
 I ended up with a C in this coursework, largely because my write-up (the bit that actually gets graded) was pretty rushed...
 
-The game is a 2.5D Shoot 'Em Up game where you control the white pill, and have to destroy the red pill(s). The game features 3 powerups that you gain access to at waves 20, 40, and 60 respectively. These are:
+The game is a 2.5D Shoot 'Em Up where you control the white pill, and have to destroy the red pill(s). The game features 3 powerups that you gain access to at waves 20, 40, and 60 respectively. These are:
 
 # Polarity Switch
 This power-up is largely inspired by the "polarity switch" feature in the arcade game "Ikaruga". In that game, enemies have a polarity of either black or white, and so does your player. You deal extra damage if you shoot an enemy with the opposite polarity to your own, but you will be vulnerable to their attacks. You can absorb bullets so long as they are the same polarity as you and they charge a power up meter you can use for a homing attack...
@@ -26,4 +26,5 @@ This power-up was inspired by the time control features added in Geometry Dash u
 Overall, it is a very barebones, buggy and rushed mess, but it's *my* mess and I own it! Feel free to look through as an example of what NOT to do. All the code is commented (briefly... it was done at the last minute) which should give an indication of what each line is *supposed* to do. The game runs pretty well in the Unity editor but is prone to crashing when playing in the built .exe file.
 
 Good luck and godspeed,
+
 Will :-)
